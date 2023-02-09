@@ -23,25 +23,25 @@ else
 // Задача 21
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
-Console.WriteLine("Введите коорлинаты точки A по оси x");
+Console.WriteLine("Введите координаты точки A по оси x");
 double xA = double.Parse(Console.ReadLine());
-
-Console.WriteLine("Введите координаты точки B по оси x");
-double xB = double.Parse(Console.ReadLine());
 
 Console.WriteLine("Введите координаты точки A по оси y");
 double yA = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Введите координаты точки B по оси y");
-double yB = double.Parse(Console.ReadLine());
-
 Console.WriteLine("Введите координаты точки A по оси z");
 double zA = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите координаты точки B по оси x");
+double xB = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите координаты точки B по оси y");
+double yB = double.Parse(Console.ReadLine());
 
 Console.WriteLine("Введите координаты точки B по оси z");
 double zB = double.Parse(Console.ReadLine());
 
-System.Console.WriteLine($"Расстояние между точками = {Math.Sqrt(Math.Pow((xB - xA), 2) + Math.Pow((yB - yA), 2) + Math.Pow((zB - zA), 2))}");
+Console.WriteLine(Math.Sqrt(Math.Pow((xB - xA), 2) + Math.Pow((yB - yA), 2) + Math.Pow((zB - zA), 2)));
 
 
 // Задача 23
