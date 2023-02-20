@@ -44,14 +44,14 @@ System.Console.WriteLine($"В массиве {Count} чётных числа(е�
 int[] arr = FillArrayWithRandomNumbers(8, -100, 101);
 
 int sum = 0;
-for (int i = 0; i < arr.Length; i++) 
-{ 
-    if (i % 2 == 1) 
-    { 
-        sum += arr[i]; 
-    } 
+for (int i = 0; i < arr.Length; i++)
+{
+    if (i % 2 == 1)
+    {
+        sum += arr[i];
+    }
 }
-System.Console.WriteLine(String.Join(", ", arr));
+System.Console.WriteLine(String.Join(" | ", arr));
 System.Console.WriteLine($"Сумма элементов стоящих на нечётных позициях: {sum}");
 
 

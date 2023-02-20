@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GIT\\C-Seminars\\Sem\\Sem.csproj": {}
+    "D:\\GIT\\C-Seminars\\HW6\\HW6.csproj": {}
   },
   "projects": {
-    "D:\\GIT\\C-Seminars\\Sem\\Sem.csproj": {
+    "D:\\GIT\\C-Seminars\\HW6\\HW6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT\\C-Seminars\\Sem\\Sem.csproj",
-        "projectName": "Sem",
-        "projectPath": "D:\\GIT\\C-Seminars\\Sem\\Sem.csproj",
+        "projectUniqueName": "D:\\GIT\\C-Seminars\\HW6\\HW6.csproj",
+        "projectName": "HW6",
+        "projectPath": "D:\\GIT\\C-Seminars\\HW6\\HW6.csproj",
         "packagesPath": "C:\\Users\\Eneamaru\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT\\C-Seminars\\Sem\\obj\\",
+        "outputPath": "D:\\GIT\\C-Seminars\\HW6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eneamaru\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

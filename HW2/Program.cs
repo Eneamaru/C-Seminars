@@ -10,7 +10,7 @@ if (Number < 100 || Number > 999)
 }
 else
 {
-    Console.WriteLine((Number/10)%10);
+    Console.WriteLine((Number / 10) % 10);
 }
 
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
@@ -27,7 +27,7 @@ else
 {
     while (Num > 999)
     {
-    Num /= 10;
+        Num /= 10;
     }
     Console.WriteLine($"Третья цифра в числе - {Num % 10}");
 }
@@ -39,7 +39,7 @@ Console.WriteLine("Введите число: ");
 int Day;
 int.TryParse(Console.ReadLine(), out Day);
 
-switch(Day)
+switch (Day)
 {
     case 1:
         Console.WriteLine("Понедельник");
@@ -62,7 +62,7 @@ switch(Day)
     case 7:
         Console.WriteLine("Воскресенье");
         break;
-    default: 
+    default:
         Console.WriteLine("Это не день недели");
         break;
 }

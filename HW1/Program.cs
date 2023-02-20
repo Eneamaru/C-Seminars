@@ -16,7 +16,7 @@ else if (Number1 < Number2)
 else
 {
     Console.WriteLine("Числа равны");
-} 
+}
 
 // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
@@ -60,7 +60,7 @@ if (Num < 2)
 else
 {
     int Count = 2;
-    
+
     while (Num >= Count)
     {
         Console.Write(Count + ", ");

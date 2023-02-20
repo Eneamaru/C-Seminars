@@ -4,20 +4,20 @@
 Console.WriteLine("Введите пятизначное число: ");
 int num;
 int.TryParse(Console.ReadLine(), out num);
-int temp = num; 
+int temp = num;
 
-int rev = 0; 
+int rev = 0;
 
-while (temp > 0) 
-{ 
-    rev = rev * 10 + temp % 10; 
-    temp = temp / 10; 
-} 
+while (temp > 0)
+{
+    rev = rev * 10 + temp % 10;
+    temp = temp / 10;
+}
 
-if (num == rev) 
-    Console.WriteLine("Это палиндром"); 
+if (num == rev)
+    Console.WriteLine("Это палиндром");
 else
-    Console.WriteLine("Это не палиндром"); 
+    Console.WriteLine("Это не палиндром");
 
 
 // Задача 21
@@ -48,9 +48,9 @@ Console.WriteLine(Math.Sqrt(Math.Pow((xB - xA), 2) + Math.Pow((yB - yA), 2) + Ma
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
 Console.WriteLine("Введите число: ");
-int N = int.Parse(Console.ReadLine()); 
-    for (int i=1; i<=N; i++) 
-    { 
-        double cube = Math.Pow(i, 3); 
-        Console.WriteLine(i + "\t" + cube); 
-    } 
+int N = int.Parse(Console.ReadLine());
+for (int i = 1; i <= N; i++)
+{
+    double cube = Math.Pow(i, 3);
+    Console.WriteLine(i + "\t" + cube);
+}
