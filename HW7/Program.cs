@@ -24,7 +24,7 @@ void PrintIntMatrix(int[,] matrix)
 
 // Задача 47. Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
 
-double[,] GenerateDoubleMatrix(int rows, int columns, int min, int max)
+double[,] GenerateDoubleMatrix(int rows, int columns)
 {
     double[,] matrix = new double[rows, columns];
     for (int i = 0; i < rows; i++)
@@ -37,7 +37,7 @@ double[,] GenerateDoubleMatrix(int rows, int columns, int min, int max)
     return matrix;
 }
 
-double[,] matrix = GenerateDoubleMatrix(3, 4, -10, 10);
+double[,] matrix = GenerateDoubleMatrix(3, 4);
 PrintDoubleMatrix(matrix);
 
 // Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
