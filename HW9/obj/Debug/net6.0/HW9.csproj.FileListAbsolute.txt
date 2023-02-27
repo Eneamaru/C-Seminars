@@ -1,0 +1,15 @@
+D:\GIT\C-Seminars\HW9\bin\Debug\net6.0\HW9.exe
+D:\GIT\C-Seminars\HW9\bin\Debug\net6.0\HW9.deps.json
+D:\GIT\C-Seminars\HW9\bin\Debug\net6.0\HW9.runtimeconfig.json
+D:\GIT\C-Seminars\HW9\bin\Debug\net6.0\HW9.dll
+D:\GIT\C-Seminars\HW9\bin\Debug\net6.0\HW9.pdb
+D:\GIT\C-Seminars\HW9\obj\Debug\net6.0\HW9.csproj.AssemblyReference.cache
+D:\GIT\C-Seminars\HW9\obj\Debug\net6.0\HW9.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\C-Seminars\HW9\obj\Debug\net6.0\HW9.AssemblyInfoInputs.cache
+D:\GIT\C-Seminars\HW9\obj\Debug\net6.0\HW9.AssemblyInfo.cs
+D:\GIT\C-Seminars\HW9\obj\Debug\net6.0\HW9.csproj.CoreCompileInputs.cache
+D:\GIT\C-Seminars\HW9\obj\Debug\net6.0\HW9.dll
+D:\GIT\C-Seminars\HW9\obj\Debug\net6.0\refint\HW9.dll
+D:\GIT\C-Seminars\HW9\obj\Debug\net6.0\HW9.pdb
+D:\GIT\C-Seminars\HW9\obj\Debug\net6.0\HW9.genruntimeconfig.cache
+D:\GIT\C-Seminars\HW9\obj\Debug\net6.0\ref\HW9.dll
